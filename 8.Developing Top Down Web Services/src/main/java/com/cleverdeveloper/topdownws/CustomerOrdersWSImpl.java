@@ -7,8 +7,11 @@ Author Name : @ DRRONIDZ
 DATE : 27/01/2022 22:49
 */
 
-import cleverdeveloper.trainings.*;
 
+import cleverdeveloper.trainings.*;
+/*
+* Dependencies to be fixed in generated sources folder ...
+* */
 public class CustomerOrdersWSImpl implements CustomerOrdersPortType {
 
 
