@@ -8,10 +8,13 @@ DATE : 27/01/2022 15:13
 */
 
 
+import org.apache.cxf.feature.Features;
+
 import javax.jws.WebMethod;
 import javax.jws.WebService;
 
 @WebService
+@Features(features = "org.apache.cxf.feature.LoggingFeature")
 public class HelloWorldWS {
 
     @WebMethod
