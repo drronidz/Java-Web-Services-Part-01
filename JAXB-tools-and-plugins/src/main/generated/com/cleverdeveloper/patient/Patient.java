@@ -264,4 +264,18 @@ public class Patient
         this.id = value;
     }
 
+
+    @Override
+    public String toString() {
+        return "Patient{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", dob=" + dob +
+                ", emails=" + emails +
+                ", gender=" + gender +
+                ", phone='" + phone + '\'' +
+                ", payment=" + payment +
+                ", id=" + id +
+                '}';
+    }
 }
