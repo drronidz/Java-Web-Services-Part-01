@@ -24,6 +24,10 @@ public class CustomerOrdersWSImpl implements CustomerOrdersPortType {
     Map<BigInteger, List<Order>> customerOrders = new HashMap<>();
     int currentId;
 
+    public CustomerOrdersWSImpl() {
+        init();
+    }
+
     public void init() {
         List<Order> orders = new ArrayList<>();
         Order order = new Order();
