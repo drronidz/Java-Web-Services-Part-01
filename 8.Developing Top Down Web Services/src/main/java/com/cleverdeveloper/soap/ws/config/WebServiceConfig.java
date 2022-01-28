@@ -1,4 +1,4 @@
-package com.cleverdeveloper.topdownws.config;
+package com.cleverdeveloper.soap.ws.config;
 
 /*
 PROJECT NAME : Java-Web-Services-Part-01
@@ -8,7 +8,8 @@ DATE : 27/01/2022 15:10
 */
 
 
-import com.cleverdeveloper.topdownws.CustomerOrdersWSImpl;
+
+import com.cleverdeveloper.soap.ws.CustomerOrdersWSImpl;
 import org.apache.cxf.Bus;
 import org.apache.cxf.jaxws.EndpointImpl;
 import org.springframework.beans.factory.annotation.Autowired;

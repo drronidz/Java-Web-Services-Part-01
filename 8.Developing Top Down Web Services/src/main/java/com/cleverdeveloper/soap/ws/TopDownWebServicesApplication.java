@@ -1,4 +1,4 @@
-package com.cleverdeveloper.topdownws;
+package com.cleverdeveloper.soap.ws;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
