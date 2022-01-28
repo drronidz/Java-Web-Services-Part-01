@@ -9,6 +9,7 @@ DATE : 27/01/2022 22:49
 
 
 import cleverdeveloper.trainings.*;
+import org.apache.cxf.feature.Features;
 
 import java.math.BigInteger;
 import java.util.ArrayList;
@@ -19,6 +20,8 @@ import java.util.Map;
 /*
 * Dependencies to be fixed in generated sources folder ...
 * */
+
+@Features(features = "org.apache.cxf.feature.LoggingFeature")
 public class CustomerOrdersWSImpl implements CustomerOrdersPortType {
 
     Map<BigInteger, List<Order>> customerOrders = new HashMap<>();
