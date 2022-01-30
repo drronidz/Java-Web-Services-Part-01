@@ -1,11 +1,17 @@
 package com.cleverdeveloper.javafirstws.dto;
 
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlType;
 import java.util.Date;
 
+
+/* @Annotation : We dont need to mark this with annotations (the naming of fields is by default)*/
+@XmlType(name="PaymentProcessorRequest")
 public class CreditCardInfo {
 
 	String cardNumber;
-	private Date expirtyDate;
+	private Date expiryDate;
 	String firstName;
 	String lastName;
 	String secCode;
@@ -51,12 +57,12 @@ public class CreditCardInfo {
 		Address = address;
 	}
 
-	public Date getExpirtyDate() {
-		return expirtyDate;
+	public Date getExpiryDate() {
+		return expiryDate;
 	}
 
-	public void setExpirtyDate(Date expirtyDate) {
-		this.expirtyDate = expirtyDate;
+	public void setExpiryDate(Date expiryDate) {
+		this.expiryDate = expiryDate;
 	}
 
 }
