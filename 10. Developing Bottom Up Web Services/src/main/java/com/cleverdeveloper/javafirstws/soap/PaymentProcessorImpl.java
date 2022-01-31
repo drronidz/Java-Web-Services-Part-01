@@ -1,7 +1,8 @@
 package com.cleverdeveloper.javafirstws.soap;
 
-import com.bharath.ws.soap.dto.PaymentProcessorRequest;
-import com.bharath.ws.soap.dto.PaymentProcessorResponse;
+
+import com.cleverdeveloper.javafirstws.dto.PaymentProcessorRequest;
+import com.cleverdeveloper.javafirstws.dto.PaymentProcessorResponse;
 
 public class PaymentProcessorImpl implements PaymentProcessor {
 
