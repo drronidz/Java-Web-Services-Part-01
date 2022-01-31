@@ -6,7 +6,7 @@ import javax.xml.bind.annotation.XmlType;
 import java.util.Date;
 
 
-/* @Annotation : We dont need to mark this with annotations (the naming of fields is by default)*/
+/* @Annotation (@XmlType) : We dont need to mark this with annotations (the naming of fields is by default)*/
 @XmlType(name="PaymentProcessorRequest")
 public class CreditCardInfo {
 
@@ -16,6 +16,7 @@ public class CreditCardInfo {
 	String lastName;
 	String secCode;
 	String Address;
+
 
 	public String getCardNumber() {
 		return cardNumber;
